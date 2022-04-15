@@ -90,16 +90,6 @@ class Fofa:
         else:
             print("[-] 尚未查询到任何数据")
 
-
-# fofa = Fofa("enmil",
-#             "apikey")
-# print(fofa.get_user_info())
-# fofa.query('title="Apache Druid" && country="CN" && port="8888"')
-# fofa.show()
-# fofa.save()
-# fofa.save_simple()
-
-
 @click.command()
 @click.option("-o", "--output", help="输出文件的名称", required=False)
 @click.option("-e", "--email", help='Fofa e-mail', required=True)
